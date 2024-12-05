@@ -1,0 +1,14 @@
+.containerCaptcha {
+    background-color: #141414; 
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captcha {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+}
