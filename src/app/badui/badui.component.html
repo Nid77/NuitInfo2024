@@ -1,3 +1,3 @@
 <form [formGroup]="formGroup"> 
-    <input  formControlName="inputValue" type="text" name="" id="">
+    <input  (input)="changeText($event)" (paste)="OnPaste($event)" formControlName="inputValue" type="text" name="" id="">
 </form>
